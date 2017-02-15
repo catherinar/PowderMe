@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Powder Me"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight=".05"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Female Front"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="Female Side"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:text="Female Not Smiling"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
